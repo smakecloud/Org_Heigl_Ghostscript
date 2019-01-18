@@ -226,8 +226,16 @@ class Ghostscript
      */
     private static $supportedMimeTypes = [
         'application/eps',
+        'application/postscript', 
+        'application/x-eps', 
+        'image/eps', 
+        'image/x-eps',
         'application/pdf',
+        'application/x-pdf',
+        'application/x-bzpdf',
+        'application/x-gzpdf',
         'application/ps',
+        'application/postscript',
     ];
 
     /**
